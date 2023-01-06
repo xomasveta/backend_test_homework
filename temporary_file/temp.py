@@ -31,8 +31,8 @@ def main(duel_res):
             current_rep = add_rep(current_rep, rep, effect)
         if result == 'failure':
             current_rep = remove_rep(current_rep, rep, effect)
-    return (f'После {len(duel_res)} поединков, ')
-    (f'репутация персонажа — {current_rep: float} очков.')
+    return (f'После {len(duel_res)} поединков,
+            f'репутация персонажа — {current_rep: float} очков.')
 
 
 # Тестовый вызов функции main.
